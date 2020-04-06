@@ -27,8 +27,8 @@ KANGING_STR = [
     "hehe me stel ur stikér\nhehe.",
     "Ay look over there (☉｡☉)!→\nWhile I kang this...",
     "Roses are red violets are blue, kanging this sticker so my pacc looks cool",
-    "Imprisoning this sticker...",
-    "Mr.Steal Your Sticker is stealing this sticker... ",
+    "Minjem bentar buat di kang h3h3...",
+    "Punten mau kang dulu buat stickerpack... ",
 ]
 
 
