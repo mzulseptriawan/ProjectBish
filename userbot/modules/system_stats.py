@@ -123,7 +123,7 @@ async def pipcheck(pip):
 async def amireallyalive(alive):
     """ For .on command, check if the bot is running.  """
     await alive.edit("`"
-                     "USERBOTnya nyala kok, kalo mati tinggal nyalain.\n"
+                     "Hi Zul, ur bot is activated.\n"
                      f"------------------------------------\n"
                      f"•  User             : {DEFAULTUSER}\n"
                      f"•  Python           : {python_version()}\n"
