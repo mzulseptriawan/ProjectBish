@@ -53,8 +53,8 @@ async def mention_afk(mention):
         if ISAFK:
             if mention.sender_id not in USERS:
                 if AFKREASON:
-                    await mention.reply("I'm AFK right now."
-                                        f"\nBecause I'm `{AFKREASON}`")
+                    await mention.reply("Lagi AFK bentar."
+                                        f"\nKarna lagi `{AFKREASON}`")
                 else:
                     await mention.reply(str(choice(AFKSTR)))
                 USERS.update({mention.sender_id: 1})
@@ -62,7 +62,7 @@ async def mention_afk(mention):
             elif mention.sender_id in USERS:
                 if USERS[mention.sender_id] % randint(2, 4) == 0:
                     if AFKREASON:
-                        await mention.reply("I'm still AFK."
+                        await mention.reply("Lagi AFK ntar juga ada lagi."
                                             f"\nReason: `{AFKREASON}`")
                     else:
                         await mention.reply(str(choice(AFKSTR)))
